@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #table {
+                font-family: Arial, Helvetica, sans-serif;
+                width: 100%;
+            }
+
+            #table td, #table th {
+            border: 2px;
+            padding: 10px;
+            }
+
+            #table th {
+                text-align: left;
+            }
+
+            #table tr:nth-child(even){background-color: white}
+
+
+        </style>
+
+        <link rel="stylesheet" type="text/css" href="jordanswebsite.css">
+
+        <title>
+            Jordan's Webpage
+        </title>
+    </head>
+
+
+    <body>
+        <header>
+            <nav>
+                <img src="deakinlogo.png" alt="deakinlogo" width="50" height="50">
+                <a href="#" style="color: black;">Home</a>
+                <a href="#" style="color: black;">Contact</a>
+                <a href="#" style="color: black;">About</a>
+            </nav>
+                
+            
+        </header>
+
+        <main>
+
+            <section id="table-section">
+                <h1 style="text-align: center; padding: 5px;">HTML title tags</h1>
+                    <table id="table">
+                        <tr>
+                            <th>Tag</th>
+                            <th>Output</th>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;h1&gt;</td>
+                            <td><h1>This is a heading</h1></td> 
+                        </tr>
+
+                        <tr>
+                            <td>&lt;h2&gt;</td>
+                            <td><h2>this is a heading</h2></td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;h3&gt;</td>
+                            <td><h3>This is a heading</h3></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;h4&gt;</td>
+                            <td><h4>This is a heading</h4></td>
+                        </tr>
+                    </table>
+            </section>
+
+            <section id="form-section">
+                <h1>Get in touch</h1>
+                <form action="#" method="post">
+                    <label for="name">Name: </label><br>
+                    <input type="text" id="name" name="name"></br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"></br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message"></textarea><br>
+                    <input type="submit" value="submit">
+                </form>
+            </section>
+            
+            <section id="list-section">
+                <h1>HTML tags used in this website</h1>
+                <ul>
+                    <li>&lt;nav&gt;</li>
+                    <li>&lt;table&gt;</li>
+                    <li>&lt;form&gt;</li>
+                    <li>&lt;img&gt;</li>
+                    <li>&lt;a&gt;</li>
+                </ul>
+            </section>
+
+        
+
+        </main>
+
+        <footer>
+            <p>&copy; Jordan's website</p>
+        </footer>
+    
+    </body>
+</html>
